@@ -23,7 +23,6 @@ def drawScatter(x,y,xlabel,ylabel,plot_labels = None):
     plt.clf();
 
     # グラフの軸ラベル等の設定
-    plt.xlabel(xlabel)
     plt.ylabel(ylabel)
     plt.grid(True)
     
